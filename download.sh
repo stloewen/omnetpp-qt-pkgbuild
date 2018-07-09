@@ -1,11 +1,1 @@
-wget	--header='Host: omnetpp.org' \
-			--header='User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0' \
-			--header='Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8' \
-			--header='Accept-Language: en-US,en;q=0.5' \
-			--header='Accept-Encoding: gzip, deflate, br' \
-			--header='Referer: https://omnetpp.org/component/jdownloads/category/31-release-test-versions?Itemid=-1' \
-			--header='Cookie: __cfduid=dbf18f0b4ef7d74030db369718b8d63f71514490794; fcb7e5dfc3182a73cb86f768253d1ad1=e2eeb09dd5f0404f46ca7a63b55bdd6e; _ga=GA1.2.1607899217.1514490860; _gid=GA1.2.1428920453.1514490860; _gat=1' \
-			--header='Connection: keep-alive' \
-			--header='Upgrade-Insecure-Requests: 1' \
-			https://www.omnetpp.org/component/jdownloads/send/30-omnet-releases/2325-omnetpp-5-3-linux \
-	  	-O omnetpp-5.3-src-linux.tgz
+curl 'https://omnetpp.org/component/jdownloads/send/32-release-older-versions/2321-omnetpp-5-2-1-linux?Itemid=0' -H 'authority: omnetpp.org' -H 'upgrade-insecure-requests: 1' -H 'dnt: 1' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36' -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8' -H 'referer: https://omnetpp.org/component/jdownloads/summary/32-release-older-versions/2321-omnetpp-5-2-1-linux' -H 'accept-encoding: gzip, deflate, br' -H 'accept-language: en-DE,en;q=0.9,de-DE;q=0.8,de;q=0.7,en-US;q=0.6' -H 'cookie: _ga=GA1.2.1943472264.1526025066; doxygen_width=256; __cfduid=d6137ab596e9290d68ae2d155725cd5281530085687; fcb7e5dfc3182a73cb86f768253d1ad1=2ebcc8f8b70acb0eb513a9bc112ed8f2' --compressed --output omnetpp-5.2.1-src-linux.tgz
